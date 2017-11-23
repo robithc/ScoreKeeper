@@ -8,14 +8,14 @@
     tools:context="com.example.android.scorekeeper.MainActivity">
 
 
-    <LinearLayout
+<LinearLayout
     android:layout_weight="1"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal">
 
 
-    <RelativeLayout
+<RelativeLayout
     android:layout_weight="1"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -102,7 +102,7 @@
         android:scaleType="centerCrop"
         android:src="@drawable/RedCard"
         />
-        </RelativeLayout>
+</RelativeLayout>
     <RelativeLayout
         android:layout_weight="1"
         android:layout_width="wrap_content"
@@ -200,7 +200,7 @@
     android:layout_height="wrap_content"
     android:orientation="horizontal">
 
-    <Button
+    <LinearLayout
         android:layout_alignParentBottom="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -210,41 +210,41 @@
         <Button
         android:layout_weight="1"
         android:layout_width="wrap_content"
-        android:layout_height="55sp"
+        android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerInParent="true"
         android:text="Add 1 Goal for Team A"
         android:textColor="@android:color/holo_blue_dark"
-            </Button>
+        />
         <Button
             android:layout_weight="1"
             android:layout_width="wrap_content"
-            android:layout_height="55sp"
+            android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_centerInParent="true"
             android:text="Add 1 Foul for Team A"
             android:textColor="@android:color/holo_blue_dark"
-            </Button>
+            />
         <Button
             android:layout_weight="1"
             android:layout_width="wrap_content"
-            android:layout_height="55sp"
+            android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_centerInParent="true"
             android:text="Add 1 Yellow Card for Team A"
             android:textColor="@android:color/holo_blue_dark"
-            </Button>
+            />
         <Button
             android:layout_weight="1"
             android:layout_width="wrap_content"
-            android:layout_height="55sp"
+            android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_centerInParent="true"
             android:text="Add 1 Red Card for Team A"
             android:textColor="@android:color/holo_blue_dark"
-            </Button>
+            />
     </LinearLayout>
-    <Button
+    <LinearLayout
         android:layout_alignParentBottom="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -254,30 +254,30 @@
         <Button
             android:layout_weight="1"
             android:layout_width="wrap_content"
-            android:layout_height="55sp"
+            android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_centerInParent="true"
             android:text="Add 1 Goal for Team B"
             android:textColor="@android:color/holo_blue_dark"
-    </Button>
+            />
         <Button
             android:layout_weight="1"
             android:layout_width="wrap_content"
-            android:layout_height="55sp"
+            android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_centerInParent="true"
             android:text="Add 1 Foul for Team B"
             android:textColor="@android:color/holo_blue_dark"
-            </Button>>
+            />
         <Button
             android:layout_weight="1"
             android:layout_width="wrap_content"
-            android:layout_height="55sp"
+            android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_centerInParent="true"
             android:text="Add 1 Yellow Card for Team B"
             android:textColor="@android:color/holo_blue_dark"
-        </Button>>
+            />
         <Button
             android:layout_weight="1"
             android:layout_width="wrap_content"
@@ -286,7 +286,7 @@
             android:layout_centerInParent="true"
             android:text="Add 1 Red Card for Team B"
             android:textColor="@android:color/holo_blue_dark"
-            </Button>
+            />
     </LinearLayout>
 </LinearLayout>
     <Button
