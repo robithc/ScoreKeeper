@@ -9,23 +9,23 @@
 
 
 <LinearLayout
-    android:layout_weight="1"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:layout_weight="1"
     android:orientation="horizontal">
 
 
 <RelativeLayout
-    android:layout_weight="1"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
+    android:layout_weight="1"
     android:orientation="horizontal"
        >
     <TextView
-        android:layout_centerHorizontal="true"
         android:id="@+id/Team1Name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
         android:text="@string/Team1"
         android:textSize="30sp"/>
 
@@ -43,78 +43,78 @@
         android:layout_width="40sp"
         android:layout_height="40sp"
         android:layout_below="@id/Team1Name"
-        android:layout_toStartOf="@+id/scoreTeam1"
         android:layout_toLeftOf="@+id/scoreTeam1"
+        android:layout_toStartOf="@+id/scoreTeam1"
         android:scaleType="centerCrop"
-        android:src="@drawable/Goal"
+        android:src="@drawable/goal"
         />
     <TextView
-        android:textSize="30sp"
         android:id="@+id/numberFoulsTeam1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/scoreTeam1"
         android:layout_centerInParent="true"
-        android:text="0" />
+        android:text="0"
+        android:textSize="30sp" />
     <ImageView
         android:id="@+id/referee"
         android:layout_width="40sp"
         android:layout_height="40sp"
         android:layout_below="@id/goal"
-        android:layout_toStartOf="@+id/numberFoulsTeam1"
         android:layout_toLeftOf="@+id/numberFoulsTeam1"
+        android:layout_toStartOf="@+id/numberFoulsTeam1"
         android:scaleType="centerCrop"
-        android:src="@drawable/Referee"
+        android:src="@drawable/referee"
         />
     <TextView
-        android:textSize="30sp"
         android:id="@+id/numberYellowCardTeam1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/numberFoulsTeam1"
         android:layout_centerInParent="true"
-        android:text="0" />
+        android:text="0"
+        android:textSize="30sp" />
     <ImageView
         android:id="@+id/yellowCard"
         android:layout_width="40sp"
         android:layout_height="40sp"
         android:layout_below="@id/numberFoulsTeam1"
-        android:layout_toStartOf="@+id/numberYellowCardTeam1"
         android:layout_toLeftOf="@+id/numberYellowCardTeam1"
+        android:layout_toStartOf="@+id/numberYellowCardTeam1"
         android:scaleType="centerCrop"
-        android:src="@drawable/YellowCard"
+        android:src="@drawable/yellowcard"
         />
     <TextView
-        android:textSize="30sp"
         android:id="@+id/numberRedCardTeam1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/numberYellowCardTeam1"
         android:layout_centerInParent="true"
-        android:text="0" />
+        android:text="0"
+        android:textSize="30sp" />
     <ImageView
         android:id="@+id/redCard"
         android:layout_width="40sp"
         android:layout_height="40sp"
         android:layout_below="@id/numberYellowCardTeam1"
-        android:layout_toStartOf="@+id/numberRedCardTeam1"
         android:layout_toLeftOf="@+id/numberRedCardTeam1"
+        android:layout_toStartOf="@+id/numberRedCardTeam1"
         android:scaleType="centerCrop"
-        android:src="@drawable/RedCard"
+        android:src="@drawable/redcard"
         />
 </RelativeLayout>
     <RelativeLayout
-        android:layout_weight="1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_weight="1"
 
         android:orientation="horizontal"
         >
         <TextView
-            android:layout_centerHorizontal="true"
             android:id="@+id/Team2Name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
             android:text="@string/Team2"
             android:textSize="30dp"/>
 
@@ -135,16 +135,16 @@
             android:layout_toEndOf="@+id/scoreTeam2"
             android:layout_toRightOf="@+id/scoreTeam2"
             android:scaleType="centerCrop"
-            android:src="@drawable/Goal"
+            android:src="@drawable/goal"
             />
         <TextView
-            android:textSize="30sp"
             android:id="@+id/numberFoulsTeam2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/scoreTeam2"
             android:layout_centerInParent="true"
-            android:text="0" />
+            android:text="0"
+            android:textSize="30sp" />
         <ImageView
 
             android:layout_width="40sp"
@@ -153,16 +153,16 @@
             android:layout_toEndOf="@+id/numberFoulsTeam2"
             android:layout_toRightOf="@+id/numberFoulsTeam2"
             android:scaleType="centerCrop"
-            android:src="@drawable/Referee"
+            android:src="@drawable/referee"
             />
         <TextView
-            android:textSize="30sp"
             android:id="@+id/numberYellowCardTeam2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/numberFoulsTeam2"
             android:layout_centerInParent="true"
-            android:text="0" />
+            android:text="0"
+            android:textSize="30sp" />
         <ImageView
             android:id="@+id/yellowCard2"
             android:layout_width="40sp"
@@ -171,16 +171,16 @@
             android:layout_toEndOf="@+id/numberYellowCardTeam2"
             android:layout_toRightOf="@+id/numberYellowCardTeam2"
             android:scaleType="centerCrop"
-            android:src="@drawable/YellowCard"
+            android:src="@drawable/yellowcard"
             />
         <TextView
-            android:textSize="30sp"
             android:id="@+id/numberRedCardTeam2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/numberYellowCardTeam2"
             android:layout_centerInParent="true"
-            android:text="0" />
+            android:text="0"
+            android:textSize="30sp" />
         <ImageView
             android:id="@+id/redCard2"
             android:layout_width="40sp"
@@ -189,101 +189,100 @@
             android:layout_toEndOf="@+id/numberRedCardTeam2"
             android:layout_toRightOf="@+id/numberRedCardTeam2"
             android:scaleType="centerCrop"
-            android:src="@drawable/RedCard"
+            android:src="@drawable/redcard"
             />
     </RelativeLayout>
 </LinearLayout>
 <LinearLayout
-    android:layout_alignParentBottom="true"
-    android:layout_weight="1"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_weight="1"
     android:orientation="horizontal">
 
     <LinearLayout
-        android:layout_alignParentBottom="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_weight="1">
+        android:layout_alignParentBottom="true"
+        android:layout_weight="1"
+        android:orientation="vertical">
 
         <Button
-        android:layout_weight="1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerInParent="true"
-        android:text="Add 1 Goal for Team A"
-        android:textColor="@android:color/holo_blue_dark"
-        />
-        <Button
-            android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_centerInParent="true"
+            android:layout_weight="1"
+            android:text="Add 1 Goal for Team A"
+            android:textColor="@android:color/holo_blue_dark" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_weight="1"
             android:text="Add 1 Foul for Team A"
             android:textColor="@android:color/holo_blue_dark"
             />
         <Button
-            android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_centerInParent="true"
+            android:layout_weight="1"
             android:text="Add 1 Yellow Card for Team A"
             android:textColor="@android:color/holo_blue_dark"
             />
         <Button
-            android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_centerInParent="true"
+            android:layout_weight="1"
             android:text="Add 1 Red Card for Team A"
             android:textColor="@android:color/holo_blue_dark"
             />
     </LinearLayout>
     <LinearLayout
-        android:layout_alignParentBottom="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_weight="1">
+        android:layout_alignParentBottom="true"
+        android:layout_weight="1"
+        android:orientation="vertical">
 
         <Button
-            android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_centerInParent="true"
+            android:layout_weight="1"
             android:text="Add 1 Goal for Team B"
             android:textColor="@android:color/holo_blue_dark"
             />
         <Button
-            android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_centerInParent="true"
+            android:layout_weight="1"
             android:text="Add 1 Foul for Team B"
             android:textColor="@android:color/holo_blue_dark"
             />
         <Button
-            android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_centerInParent="true"
+            android:layout_weight="1"
             android:text="Add 1 Yellow Card for Team B"
             android:textColor="@android:color/holo_blue_dark"
             />
         <Button
-            android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="55sp"
             android:layout_alignParentBottom="true"
             android:layout_centerInParent="true"
+            android:layout_weight="1"
             android:text="Add 1 Red Card for Team B"
             android:textColor="@android:color/holo_blue_dark"
             />
