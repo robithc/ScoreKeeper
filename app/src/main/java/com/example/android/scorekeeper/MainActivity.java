@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
     int yellowCardsTeam2 = 0;
     int redCardsTeam2 = 0;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         TextView scoreView = (TextView) findViewById(R.id.scoreTeam1);
         scoreView.setText(String.valueOf(score));
     }
+
     /**
      * Displays the number of fouls  for Team 1.
      */
@@ -36,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
         TextView scoreView = (TextView) findViewById(R.id.numberFoulsTeam1);
         scoreView.setText(String.valueOf(score));
     }
+
     /**
      * Displays the number of yellow cards  for Team 1.
      */
@@ -43,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
         TextView scoreView = (TextView) findViewById(R.id.numberYellowCardTeam1);
         scoreView.setText(String.valueOf(score));
     }
+
     /**
      * Displays the number of red cards  for Team 1.
      */
@@ -90,6 +94,7 @@ public class MainActivity extends AppCompatActivity {
         TextView scoreView = (TextView) findViewById(R.id.scoreTeam2);
         scoreView.setText(String.valueOf(score));
     }
+
     /**
      * Displays the number of fouls  for Team 2.
      */
@@ -97,6 +102,7 @@ public class MainActivity extends AppCompatActivity {
         TextView scoreView = (TextView) findViewById(R.id.numberFoulsTeam2);
         scoreView.setText(String.valueOf(score));
     }
+
     /**
      * Displays the number of yellow cards  for Team 2.
      */
@@ -104,6 +110,7 @@ public class MainActivity extends AppCompatActivity {
         TextView scoreView = (TextView) findViewById(R.id.numberYellowCardTeam2);
         scoreView.setText(String.valueOf(score));
     }
+
     /**
      * Displays the number of red cards  for Team 2.
      */
