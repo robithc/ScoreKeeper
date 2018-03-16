@@ -6,7 +6,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 
-
 public class MainActivity extends AppCompatActivity {
     int scoreTeam1 = 0;
     int foulsTeam1 = 0;
@@ -16,7 +15,6 @@ public class MainActivity extends AppCompatActivity {
     int foulsTeam2 = 0;
     int yellowCardsTeam2 = 0;
     int redCardsTeam2 = 0;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
